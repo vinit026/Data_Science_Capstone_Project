@@ -184,7 +184,7 @@ def main():
                     'owner': [owner]}
 
         input_df = pd.DataFrame(input_data)
-        pipeline = pickle.load(open("/content/drive/MyDrive/pipeline_model.pkl", "rb"))
+        pipeline = pickle.load(open("https://drive.google.com/file/d/1DkOTAo5NLb6_amoXaYyRRkcoxz9oZJSb/view?usp=drive_link", "rb"))
         predictions = pipeline.predict(input_df)
 
         st.success(predictions[0])
