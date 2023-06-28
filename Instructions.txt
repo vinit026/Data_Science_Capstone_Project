@@ -1,2 +1,0 @@
-1. Open Python File whose name is "streamlit_app.py". It this file we have Web App Code.
-2. Now, Open the Python File whose name is "Capstone_Project". In this file we have EDA, Plots, etc.
