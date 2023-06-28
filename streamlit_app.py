@@ -110,17 +110,20 @@ def main():
         elif type_of_plot == 'bar':
           cust_data = df[selected_columns_names].value_counts().plot(kind = "bar")
           st.write(cust_data)
+          plt.xticks(rotation = 90)
           st.pyplot()
 
         elif type_of_plot == 'line':
           cust_data = df[selected_columns_names].value_counts().plot(kind = "line")
           st.write(cust_data)
+          plt.xticks(rotation = 90)
           st.pyplot()
 
 				# Custom Plot
         elif type_of_plot:
           cust_plot= df[selected_columns_names].plot(kind=type_of_plot)
           st.write(cust_plot)
+          plt.xticks(rotation = 90)
           st.pyplot()
 
 
