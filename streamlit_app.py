@@ -55,9 +55,6 @@ def main():
       if st.checkbox("Summary"):
         st.write(df.describe())
 
-      if st.checkbox("Short Information"):
-        st.write(df.info())
-
       if st.checkbox("Show Selected Columns"):
         selected_columns = st.multiselect("Select Columns", df.columns.to_list())
         new_df = df[selected_columns]
