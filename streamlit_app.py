@@ -12,9 +12,9 @@ Original file is located at
 
 # SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 
-from google.colab import drive
-drive.mount('/content/drive')
-!wget -O /content/pipeline_model.pkl "<https://drive.google.com/file/d/1DkOTAo5NLb6_amoXaYyRRkcoxz9oZJSb/view?usp=drive_link>"
+# from google.colab import drive
+# drive.mount('/content/drive')
+# !wget -O /content/pipeline_model.pkl "<https://drive.google.com/file/d/1DkOTAo5NLb6_amoXaYyRRkcoxz9oZJSb/view?usp=drive_link>"
 
 # Core Pkgs
 # import sklearn
