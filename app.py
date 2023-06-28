@@ -15,6 +15,8 @@ import sklearn
 import streamlit as st
 import scipy
 import scipy.stats
+import itertools
+import pickle
 
 # Importing Libraries for EDA
 import pandas as pd
@@ -137,8 +139,8 @@ def main():
       car_maker = split[0]
       car_model = split[1]
 
-      import itertools
-      option = list(itertools.chain(range(1980, 2024, 1)))
+
+	    option = list(itertools.chain(range(1980, 2024, 1)))
 
       years = st.selectbox("Select year of model", options = option)
       st.write(years)
@@ -163,7 +165,6 @@ def main():
       test  = [[ name, years, km_driven, fuel, seller_type, transmission, owner]]
       st.write('Test_Data', test)
 
-      import pickle
 
       if st.button('Predict', key = "int"):
         input_data = {"car_maker": [car_maker],
