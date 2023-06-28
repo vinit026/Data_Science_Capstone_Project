@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/15mKzzQuyzw2qwccUxr2MLHHoMyveedUX
 """
 
-# !pip install -q streamlit
-# !npm install localtunnel
+!pip install -q streamlit
+!npm install localtunnel
 import streamlit as st
 
 # Core Pkgs
