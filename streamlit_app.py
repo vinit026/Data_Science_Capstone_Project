@@ -18,8 +18,8 @@ Original file is located at
 # Core Pkgs
 # import sklearn
 import streamlit as st
-import scipy
-import scipy.stats
+# import scipy
+# import scipy.stats
 import itertools
 import pickle
 
