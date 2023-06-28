@@ -80,6 +80,7 @@ def main():
   elif choice == "Plots":
     st.subheader("Data Visualization")
     data = st.file_uploader("Upload a Dataset", type = ["csv"])
+    st.set_option('deprecation.showPyplotGlobalUse', False)
 
     if data is not None:
       df = pd.read_csv(data)
