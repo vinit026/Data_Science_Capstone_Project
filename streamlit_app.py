@@ -104,6 +104,7 @@ def main():
         if type_of_plot == 'area':
           cust_data = df[selected_columns_names].value_counts().plot(kind = "area")
           st.write(cust_data)
+          plt.xticks(rotation = 90)		
           st.pyplot()
 
         elif type_of_plot == 'bar':
