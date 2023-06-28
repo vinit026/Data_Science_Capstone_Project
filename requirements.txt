@@ -6,7 +6,7 @@ numpy
 matplotlib
 seaborn
 
-pickle
+
 
 
 pandas==1.5.3
