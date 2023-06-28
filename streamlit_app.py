@@ -177,7 +177,7 @@ def main():
                     'owner': [owner]}
 
         input_df = pd.DataFrame(input_data)
-        pipeline = pickle.load(open("/content/pipeline_model.pkl", "rb"))
+        pipeline = pickle.load(open("pipeline_model.pkl", "rb"))
         predictions = pipeline.predict(input_df)
 
         st.success(predictions[0])
