@@ -140,7 +140,7 @@ def main():
       car_model = split[1]
 
 
-	    option = list(itertools.chain(range(1980, 2024, 1)))
+      option = list(itertools.chain(range(1980, 2024, 1)))
 
       years = st.selectbox("Select year of model", options = option)
       st.write(years)
