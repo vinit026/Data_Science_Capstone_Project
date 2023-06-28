@@ -16,7 +16,7 @@ import streamlit as st
 import scipy
 import scipy.stats
 import itertools
-import pickle
+import _pickle as pickle
 
 # Importing Libraries for EDA
 import pandas as pd
