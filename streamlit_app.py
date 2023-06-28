@@ -17,6 +17,7 @@ import scipy
 import scipy.stats
 import itertools
 import pickle
+import sklearn
 
 # Importing Libraries for EDA
 import pandas as pd
