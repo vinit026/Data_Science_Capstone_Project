@@ -24,9 +24,10 @@ import numpy as np
 
 
 # Importing Libraries for Data Visualisation
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib
-matplotlib.use("Agg")
+
 import seaborn as sns
 
 def main():
