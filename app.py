@@ -184,8 +184,13 @@ def main():
 
 
         predictions = pipeline.predict(input_df)
+        
+        if predictions<0:
+            st.success("Wrong Details")
+        else:
+            st.success(predictions[0])
 
-        st.success(predictions[0])
+       # st.success(predictions[0])
 
 
 if __name__ == "__main__":
