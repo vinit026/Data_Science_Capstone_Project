@@ -9,7 +9,7 @@ Original file is located at
 
 # !pip install -q streamlit
 # !npm install localtunnel
-SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
+# SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 # Core Pkgs
 # import sklearn
 import streamlit as st
