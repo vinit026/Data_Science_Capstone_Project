@@ -12,6 +12,7 @@ Original file is located at
 import streamlit as st
 
 # Core Pkgs
+import sklearn
 import streamlit as st
 import scipy
 import scipy.stats
