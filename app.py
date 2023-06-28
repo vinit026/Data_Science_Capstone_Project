@@ -130,7 +130,7 @@ def main():
       df = pd.read_csv(data)
       st.dataframe(df.head())
 
-      name = st.selectbox("Select Car Name", options = df["name"])
+      name = st.selectbox("Select Car Name", options = df["name"].unique())
       st.write(name)
       split = name.split(" ")
       car_maker = split[0]
