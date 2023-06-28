@@ -12,8 +12,8 @@ Original file is located at
 
 # SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
 
 # Core Pkgs
 # import sklearn
