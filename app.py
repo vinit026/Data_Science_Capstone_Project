@@ -186,7 +186,7 @@ def main():
         predictions = pipeline.predict(input_df)
         
         if predictions<0:
-            st.success("We have identified that there were inaccuracies in the details entered by you.")
+            st.success("We have identified that there were inaccuracies in the details entered by you.\U0001F600")
         else:
             st.success(predictions[0])
 
