@@ -12,8 +12,9 @@ Original file is located at
 
 # SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 
-# from google.colab import drive
-# drive.mount('/content/drive')
+from google.colab import drive
+drive.mount('/content/drive')
+!wget -O /content/pipeline_model.pkl "<https://drive.google.com/file/d/1DkOTAo5NLb6_amoXaYyRRkcoxz9oZJSb/view?usp=drive_link>"
 
 # Core Pkgs
 # import sklearn
@@ -184,7 +185,7 @@ def main():
                     'owner': [owner]}
 
         input_df = pd.DataFrame(input_data)
-        pipeline = pickle.load(open("https://drive.google.com/file/d/1DkOTAo5NLb6_amoXaYyRRkcoxz9oZJSb/view?usp=drive_link", "rb"))
+        pipeline = pickle.load(open("content/pipeline_model.pkl", "rb"))
         predictions = pipeline.predict(input_df)
 
         st.success(predictions[0])
