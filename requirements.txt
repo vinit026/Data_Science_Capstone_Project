@@ -1,5 +1,11 @@
+sklearn
+streamlit
+scipy
+pandas
+numpy
+matplotlib
+seaborn
+itertools
+pickle
+
 scikit-learn==0.12.2
-pandas==1.5.3
-numpy==1.22.4
-seaborn==0.12.2
-matplotlib==3.7.1
