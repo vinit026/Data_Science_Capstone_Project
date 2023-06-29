@@ -188,7 +188,7 @@ def main():
         if predictions<0:
             st.success("We have identified that there were inaccuracies in the details entered by you.\U0001F600")
         else:
-            st.success(predictions[0])
+            st.success(round(predictions[0]))
 
        # st.success(predictions[0])
 
