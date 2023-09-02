@@ -2,3 +2,5 @@
 2. Now, Open the Python File whose name is code.py. In this file, we have EDA, Plots, etc.
 3. Open the Streamlit Web App.
 4. Upload the CAR DETAILS dataset in Streamlit Web App.
+Link of Streamlit Web App:
+'https://datasciencecapstoneproject-aahg3o71cxw.streamlit.app/'
