@@ -32,7 +32,9 @@ def main():
 
   if choice == "EDA":
     st.subheader("EDA")
-    data = st.file_uploader("Upload a Dataset", type = ["csv"])
+    url = 'https://drive.google.com/file/d/1GXhhKKVMzjer69ow7iwZ1F1E2aX0-QgD/view?usp=drive_link'
+    path = 'https://drive.google.com/uc?export=download&id='+url.split('/')[-2]
+    df = pd.read_csv(path)
 
 
     if data is not None:
