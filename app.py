@@ -34,7 +34,7 @@ def main():
     st.subheader("EDA")
     url = 'https://drive.google.com/file/d/1GXhhKKVMzjer69ow7iwZ1F1E2aX0-QgD/view?usp=drive_link'
     path = 'https://drive.google.com/uc?export=download&id='+url.split('/')[-2]
-    df = pd.read_csv(path)
+    data = pd.read_csv(path)
 
 
     if data is not None:
